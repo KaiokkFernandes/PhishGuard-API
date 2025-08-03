@@ -1,0 +1,2 @@
+pip install pandas scikit-learn python-whois notebook jupyterlab # Jupyter é opcional, mas ajuda na exploração
+pip install fastapi "uvicorn[standard]" scikit-learn joblib python-whois flask-cors
