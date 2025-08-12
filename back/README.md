@@ -135,7 +135,13 @@ backend/
 
 ## 🔧 Solução de Problemas
 
-### Erro de Importação
+### Erro de Importação do Pydantic
+Se encontrar o erro `BaseSettings has been moved to the pydantic-settings package`, instale o pacote necessário:
+```bash
+pip install pydantic-settings
+```
+
+### Erro de Importação Geral
 Se encontrar erros de importação, certifique-se de que está executando do diretório correto:
 ```bash
 cd "c:\Users\Kaio vittor\Documents\PhishGuard-API\PhishGuard-API\back"
@@ -152,3 +158,6 @@ Se a porta 8000 estiver em uso, mude para outra porta:
 ```bash
 uvicorn main:app --host 0.0.0.0 --port 8001 --reload
 ```
+
+### Erro de Modelo
+Se encontrar erro relacionado ao modelo de ML, o sistema usará um modelo mock para demonstração.
